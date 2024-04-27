@@ -1,0 +1,46 @@
+#container{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+
+#cont{
+    
+    height: 40px;
+    
+    padding: 0;
+}
+
+
+#navitems{
+
+    display: flex;
+    width: 100%;
+    
+}
+#oneselect{
+    height: 19px;
+} 
+#twoselect{
+    height: 19px;
+}
+input{
+    height: 14px;
+    width: 100%;
+}
+
+/* #container > div img{
+    width: 100%;
+    border: 2px solid blue;
+} */
+.product-image {
+     max-width: 100px;
+      
+}
+.product-title{
+    margin: auto;
+    text-size-adjust: 2px;
+    
+}
